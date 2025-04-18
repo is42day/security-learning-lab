@@ -1,0 +1,3 @@
+[submodule "targets/vulhub"]
+	path = targets/vulhub
+	url = https://github.com/vulhub/vulhub.git
