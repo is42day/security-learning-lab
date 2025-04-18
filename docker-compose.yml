@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  security-lab:
+    build:
+      context: ./.devcontainer
+    container_name: security-lab
+    tty: true
+    volumes:
+      - ./:/workspace
+    ports:
+      - 8000:8000
+      - 8080:8080
+      - 4444:4444

@@ -1,0 +1,20 @@
+{
+    "name": "Security Learning Lab",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "security-lab",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-vscode-remote.remote-containers",
+          "github.copilot",
+          "eamodio.gitlens"
+        ],
+        "settings": {
+          "terminal.integrated.shell.linux": "/bin/bash"
+        }
+      }
+    }
+  }
+  

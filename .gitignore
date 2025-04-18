@@ -1,0 +1,14 @@
+# Ignore sensitive files
+id_rsa*
+.env
+*.log
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Docker build outputs
+*.tar
